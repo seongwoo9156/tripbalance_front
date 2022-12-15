@@ -15,7 +15,7 @@ const Game = lazy(() => import("../../pages/game/Game"));
 
 const Router = () => {
   return (
-    <Suspense fallback={<div>로딩중...</div>}>
+    <Suspense fallback={<div>로딩중..</div>}>
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
